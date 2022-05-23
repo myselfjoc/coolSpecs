@@ -1,0 +1,23 @@
+
+    <div class="product-page">
+      <div class="card" style="width: 15rem" *ngFor="let product of products">
+        <img src="{{ product.img }}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h6 class="product-name">
+            {{ product.title }} <span> - {{ product.model }}</span>
+          </h6>
+          <div class="card-review-btn">
+            <p class="subline">
+              <span>{{product.rate}} <i class="fas fa-star"></i></span> | {{product.bought}} Bought
+            </p>
+
+            <button class="buy-now"><a href=""> Buy Now </a></button>
+        </div>
+        <div class="price-container">
+            <p class="price">Rs. {{product.price}}    <span>    Rs. 2000</span>
+            </p>
+        </div>
+        </div>
+      </div>
+    </div>
+

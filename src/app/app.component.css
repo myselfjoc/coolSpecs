@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Playfair+Display&display=swap");
+
+.color-1 {
+  background: rgb(206, 211, 215);
+  background: radial-gradient(
+    circle,
+    rgba(206, 211, 215, 1) 0%,
+    rgba(206, 211, 215, 1) 15%,
+    rgba(206, 211, 215, 1) 41%
+  );
+  height: 100vh;
+  width: 100vw;
+}
+
+.color-2 {
+  background: rgb(167, 188, 209);
+  background: radial-gradient(
+    circle,
+    rgba(167, 188, 209, 1) 0%,
+    rgba(167, 188, 209, 1) 15%,
+    rgba(167, 188, 209, 1) 41%
+  );
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.color-3 {
+  background: rgb(211, 165, 167);
+  background: radial-gradient(
+    circle,
+    rgba(211, 165, 167, 1) 0%,
+    rgba(211, 165, 167, 1) 15%,
+    rgba(211, 165, 167, 1) 41%
+  );
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.color-4 {
+  background: rgb(136, 193, 174);
+  background: radial-gradient(
+    circle,
+    rgba(136, 193, 174, 1) 0%,
+    rgba(136, 193, 174, 1) 15%,
+    rgba(136, 193, 174, 1) 41%
+  );
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.color-5 {
+  background: rgb(207, 206, 175);
+  background: radial-gradient(
+    circle,
+    rgba(207, 206, 175, 1) 0%,
+    rgba(207, 206, 175, 1) 15%,
+    rgba(207, 206, 175, 1) 41%
+  );
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  margin: 0 8rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  border-bottom: 1px solid black;
+}
+
+.nav-menu {
+  display: flex;
+  margin-left: -2rem;
+}
+
+.nav-items {
+  margin-right: 2rem;
+}
+.nav-items > a {
+  color: black;
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  margin-left: -5rem;
+}
+
+.nav-social {
+  display: flex;
+}
+
+.social-media {
+  margin-left: 2rem;
+}
+
+.social-media > a > i {
+  color: black;
+}
+
+.home-body {
+  width: 100vw;
+  text-align: center;
+}
+
+.heading {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+}
+
+.center-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-container > h1 {
+  position: absolute;
+  font-size: 9rem;
+  color: white;
+}
+
+.center-container > h1 > span {
+  filter: blur(4px);
+}
+
+.home-img {
+  height: 17rem;
+  z-index: 9;
+}
+
+.home-img-blue {
+  height: 17rem;
+  z-index: 9;
+  filter: invert(11%) sepia(37%) saturate(1284%) hue-rotate(164deg)
+    brightness(100%) contrast(90%);
+}
+.home-img-pink {
+  height: 17rem;
+  z-index: 9;
+  filter: invert(37%) sepia(10%) saturate(2163%) hue-rotate(314deg)
+    brightness(106%) contrast(81%);
+}
+
+.home-img-green {
+  height: 17rem;
+  z-index: 9;
+  filter: invert(20%) sepia(69%) saturate(246%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
+.home-img-yellow {
+  height: 17rem;
+  z-index: 9;
+  filter: invert(79%) sepia(39%) saturate(358%) hue-rotate(11deg)
+    brightness(88%) contrast(93%);
+}
+
+.home-desc {
+  font-size: 0.8rem;
+  padding: 0 25rem;
+  margin-bottom: 3rem;
+}
+
+.counting {
+  font-family: "open-sans", sans-serif;
+  font-size: 1rem;
+  margin-top: -2rem;
+  margin-bottom: 1rem;
+}
+
+.home-ftr {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home-btn {
+  box-shadow: none;
+  background-color: black;
+  color: white;
+  padding: 1rem 5rem;
+  border: none;
+  position: absolute;
+  left: 42vw;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: black;
+  margin: 0 8rem;
+  position: relative;
+  top: 1.5rem;
+}
+
+.color-selection {
+  position: absolute;
+  top: 36vh;
+  right: 3rem;
+  cursor: pointer;
+}
+
+.color-box {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 5px;
+  margin-bottom: 0.4rem;
+}
+
+.color-box:nth-child(1) {
+  background: rgb(167, 188, 209);
+  background: radial-gradient(
+    circle,
+    rgba(167, 188, 209, 1) 0%,
+    rgba(167, 188, 209, 1) 15%,
+    rgba(167, 188, 209, 1) 41%
+  );
+}
+.color-box:nth-child(2) {
+  background: rgb(211, 165, 167);
+  background: radial-gradient(
+    circle,
+    rgba(211, 165, 167, 1) 0%,
+    rgba(211, 165, 167, 1) 15%,
+    rgba(211, 165, 167, 1) 41%
+  );
+}
+.color-box:nth-child(3) {
+  background: rgb(136, 193, 174);
+  background: radial-gradient(
+    circle,
+    rgba(136, 193, 174, 1) 0%,
+    rgba(136, 193, 174, 1) 15%,
+    rgba(136, 193, 174, 1) 41%
+  );
+}
+.color-box:nth-child(4) {
+  background: rgb(207, 206, 175);
+  background: radial-gradient(
+    circle,
+    rgba(207, 206, 175, 1) 0%,
+    rgba(207, 206, 175, 1) 15%,
+    rgba(207, 206, 175, 1) 41%
+  );
+}

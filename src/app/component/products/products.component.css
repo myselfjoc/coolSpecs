@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Playfair+Display&display=swap");
+
+.product-page {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.card {
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.product-name > span {
+  font-size: 0.7rem;
+  display: flex;
+  color: #cecaca;
+  line-height: 2;
+}
+
+.card-review-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.subline {
+  font-size: 0.7rem;
+}
+
+.subline > span {
+  background-color: #28c7bf;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.7rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.buy-now {
+  background-color: #066163;
+  border: none;
+  padding: 0.4rem;
+  border-radius: 10px;
+  margin-top: -1rem;
+}
+
+.buy-now > a {
+  color: #fff;
+}
+
+.price-container {
+  border-top: 1px solid #a2b38b;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.price > span {
+  font-size: 0.9rem;
+  margin-left: 0.4rem;
+  font-weight: 400;
+  text-decoration: line-through;
+}
